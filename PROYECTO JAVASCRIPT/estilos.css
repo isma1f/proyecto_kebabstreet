@@ -7,13 +7,13 @@
     padding: 10px 5%;
 } */
 
-@media (max-width: 1920px) {
+
 .menu-nav {
     width: 100%;
-    max-width: 100%; 
+    max-width: 100%;
     display: flex;
         background-image: url('header.png');
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
 }
@@ -23,7 +23,7 @@
     background-image: url('header.png');
     width: 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 
@@ -47,69 +47,112 @@ background-color: #EEEEEE;
 }
 
 .logo {
-    height: 150px; 
+    height: 150px;
     width: auto;
     max-width: 100%;
     display: block;
-
 }
 
 
 
-
-
-}
-@media (max-width: 600px) {
-.menu-nav {
-    width: 100%;
-    max-width: 100%; 
-    display: flex;
-        background-image: url('header.png');
-    justify-content: space-between; 
-    align-items: center;
-    padding: 15px 20px;
-}
-
-.menu-nav {
-    background-color: #000000;
-    background-image: url('header.png');
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-}
-
-
-.menu-nav a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 20px;
+#masdestacado {
     font-family: 'Jaro';
-    font-size: 25px;
+    font-size: 4vw;
     margin: 20px;
-}
-body{
-background-color: #610404;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.logo {
-    height: 60px; 
-    width: auto;
-    max-width: 90%;
-    display: block;
-
-}
-
-#restaurante {
-display:none;
+    margin-left: 7.5%;
 }
 
 
+.color-rojo{
+color: #C20101;
+}
 
+#pizzainicio{
+width: 85%;
+height: 45vw;
+border: 4px solid #000000;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+h2{
+font-family: 'Alkatra', cursive;
+}
+
+#textochico{
+position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 1%; 
+    font-size: 1.4rem;
+    font-family: 'Jaro';
+    color: white;
+    margin: 0; /
+}
+
+#headerchico{
+width: 85%;
+height: 6vh;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.divheaderchico{
+position: relative; 
+width: 100%;
+max-width: 100%;
+}
+
+.carrusel-contenedor {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden; 
+    border: 4px solid #000000;
+}
+
+.carrusel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 200%; 
+}
+
+
+.slide-img {
+    width: 50%; 
+    height: 45vw; 
+    object-fit: cover;
+}
+
+
+.flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.izq { left: 10px; }
+.der { right: 10px; }
+
+.divheaderchico {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+#headerchico {
+    width: 100%;
+    height: 6vh;
 }
