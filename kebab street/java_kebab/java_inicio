@@ -1,0 +1,32 @@
+const ofertas = document.querySelectorAll(".ofertas_destacadas > div");//creamos una lista con todas las ofertas
+
+//creamos las variables para flechas
+
+const flechaIzq = document.querySelector(".izq"); 
+
+const flechaDrch = document.querySelector(".drch");
+
+let contador=0//variable contador para el bucle,similar a ejercicios de programación
+
+function CambiarOferta(){
+    
+    ofertas.forEach(oferta => oferta.style.display = "none");//con esta linea,todas las ofertas estarán ocultas
+
+    ofertas[contador].style.display = "block";//mostramos solo la que le corresponda al contador
+}
+
+flechaDrch.addEventListener("click", () => {//si clickamos en la flecha derecha,sumamos1 al contador(pasamos de oferta)
+    contador++;
+    if (contador >= ofertas.length) {
+         contador = 0; //si nos pasamos,volvemos al inicio
+    }
+    CambiarOferta();
+} )
+//lo mismo con flecha izquierda
+flechaIzq.addEventListener("click", () => { 
+    contador--;
+    if (contador < 0) { 
+        contador = ofertas.length - 1; 
+    }
+       CambiarOferta();
+} )
