@@ -78,10 +78,11 @@ margin-right: auto;
 
 h2{
 font-family: 'Alkatra', cursive;
-font-size: 2vw;
+font-size: 2.2vw;
 margin: 20px;
 margin-left: 7.5%;
 margin-right: 32%;
+margin-top: 2px;
 }
 
 
@@ -111,6 +112,7 @@ width: 100%;
 max-width: 100%;
 }
 
+/*CARRUSEL*/
 .carrusel-contenedor {
     position: relative;
     width: 85%;
@@ -170,43 +172,54 @@ font-family: 'Jaro';
     margin-left: 7.5%;
 }
 
-
-.fotosreparto {
+ /* SERVICIOS */
+.contenedor-servicios {
   display: flex;
-  justify-content: center; 
-  gap: 20px;               
-  flex:auto;      
-  text-align: center;
-  margin-left: 70%;
+  flex-direction: row;
+  flex-wrap: nowrap;       
+  justify-content: flex-end; 
+  align-items: flex-end;
+  gap: 2vw;                  
+  width: 100%;
+  padding-right: 5%;         
 }
 
-.item {
+.servicio-item {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: center;
-  width: 72px;
-           
+  width: clamp(60px, 10vw, 100px); 
+  text-align: center;
 }
 
-.item img {
-  width: 70px;          
-  height: 90px;          
-  object-fit: contain;    
+.servicio-item img {
+  width: 100%;
+  margin-right: 85%;             
+  height: auto;
+  object-fit: contain;
 }
 
-.item h1 {
-  font-size: 1.3rem;        
-  margin-top: 10px;
+.servicio-item p {
+  font-family: jaro;
+  font-size: clamp(0.6rem, 1vw, 0.9rem);
+  margin-top: 5px;
+  line-height: 1.1;
+  margin-right: 85%;
 }
 
+@media (max-width: 768px) {
+  .contenedor-servicios {
+    justify-content: center; 
+    padding-right: 0;        
+    margin: 20px 0;
+    margin-left: 8%;        
+  }
 
-.fotosreparto h1{
-font-family: jaro
+  .servicio-item {
+    width: 18vw;
+    
+  }
 }
-
-
-
-
 
 
 /*MENU-NAVEGACION*/
@@ -353,6 +366,12 @@ font-family: 'Alkatra', cursive;
 
 .peninsula{
 font-family: jaro;
+margin-left: 7%;
+font-size: 4vw;
+
+}
+
+.peninsula-content{
 margin-left: 7%;
 }
 
