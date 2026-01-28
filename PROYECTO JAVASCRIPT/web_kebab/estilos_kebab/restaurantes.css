@@ -1,0 +1,154 @@
+
+
+/* restaurantes*/
+
+h1{
+    font-size:5vw;
+    font-family: 'Jaro', sans-serif;
+    margin-left: 3vw;
+    transform: translate(1vw,10vw);
+
+}
+
+
+h1 span{
+    color: red;
+}
+
+/*barcelona*/
+
+.barcelona{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transform: translate(-1vw,2vw);
+}
+
+.barcelona h2{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2.8vw;
+    font-family: 'Jaro', sans-serif;
+    transform: translate(48vw,8vw);
+    width:40vw;
+}
+
+.barcelona h2 span{
+    color:red;
+}
+
+
+.barcelona img{
+    width:40vw;
+    grid-row:2;
+    grid-column: 1;
+    transform: translate(3vw,-20vw);
+}
+
+.barcelona p{
+    grid-row:2;
+    grid-column: 2;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    background-color:#D9D9D9;
+    transform: translate(8vw,-21vw);
+    width: 40vw;
+    text-align: justify;
+    padding: 3vw;
+    border-style: solid;
+    border-color: red;
+    line-height:4vw ;
+    border-width: 0.25vw;
+}
+
+/*madrid*/
+
+
+ .Madrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transform: translate(3.5vw,-42vw);
+}
+ 
+
+.Madrid h2{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2.8vw;
+    font-family: 'Jaro', sans-serif;
+    transform: translate(45vw,32vw);
+}
+
+.Madrid h2 span{
+    color:red;
+}
+
+.Madrid img{
+    width:40vw;
+    grid-row:2;
+    grid-column: 1;
+    transform:translate(-1vw)
+}
+
+.Madrid p{
+    grid-row:2;
+    grid-column: 2;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    background-color:#D9D9D9;
+    width: 40vw;
+    text-align: justify;
+    padding: 3vw;
+    border-style: solid;
+    border-color: red;
+    line-height:6vw ;
+    border-width: 0.25vw;
+    transform:translate(4vw,-2vw)
+}
+
+/*Malaga*/
+
+ .Malaga{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transform: translate(3vw,-58vw);
+}
+ 
+
+.Malaga h2{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2.8vw;
+    font-family: 'Jaro', sans-serif;
+    transform: translate(45vw,27vw);
+}
+
+.Malaga h2 span{
+    color:red;
+}
+
+.Malaga img{
+    width:40vw;
+    grid-row:2;
+    grid-column: 1;
+    transform: translate(-1vw);
+}
+
+.Malaga p{
+    grid-row:2;
+    grid-column: 2;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    background-color:#D9D9D9;
+    width: 40vw;
+    text-align: justify;
+    padding: 3vw;
+    border-style: solid;
+    border-color: red;
+    line-height:5.5vw ;
+    border-width: 0.25vw;
+    transform:translate(4vw)
+}
+

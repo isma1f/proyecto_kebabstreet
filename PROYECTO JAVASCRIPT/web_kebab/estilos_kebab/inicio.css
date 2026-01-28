@@ -1,0 +1,106 @@
+/*header*/
+
+.head{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    background: radial-gradient( #464646, #000000);
+    width: 100vw;
+}
+
+.head img{
+    position:relative;
+    width:18vw;
+    right:2vw
+}
+
+
+.head h3{
+    position:relative;
+    font-size: 3.6vw;
+    color:rgb(255, 255, 255);
+    margin-left: 3.5%;
+    top:1vw;
+    right:2.6vw;
+    font-family:'Bebas Neue', sans-serif;
+}
+
+/*lo mas destacado*/
+
+.destacado{
+    display:flex;
+    flex-direction: column;
+    margin-left:4%;
+}
+
+.destacado h2{
+    font-size: 5vw;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.destacado h2 span{/*con span podemos modificar el texto a parte*/
+    color: red;
+}
+
+
+.ofertas_destacadas{/* de aquí partirán las ofertas(es la posición referente, así no afecta al flex*/
+    position:relative;
+}
+
+.oferta_kebab{/*con position absolute(parte del div anterior, por lo que no le afecta el flex),pondremos las imagenes y textos unos encimas de otros para asi poder desplazarlos*/
+    position:absolute;
+}
+
+.oferta_kebab img{
+    width:90vw;
+    border-style: solid;
+}
+
+.oferta_kebab h3{
+    font-size:2.5vw;
+    background-color: #000000;
+    background: radial-gradient( #464646, #000000);
+    color: white;
+}
+.oferta_pizza{
+    position:absolute;
+}
+
+.oferta_pizza img{
+    width:90vw;
+    border-style: solid;
+    
+}
+
+.oferta_pizza h3{
+    height: 4vw;
+    font-size:2.5vw;
+    margin-top: -0.5vw;
+    
+    background-color: #000000;
+    
+    color: white;
+}
+
+.izq{
+    position:absolute;
+    margin-left:-2.9%;
+    margin-top:30%;
+    width: 2.5vw;
+    height:3vw;
+    font-size: 2.5vw;
+    background-color: #000000;
+    color:white
+}
+
+.drch{
+    position:absolute;
+    margin-right:
+    margin-top:30%;
+    width: 2.5vw;
+    height:3vw;
+    font-size: 2.5vw;
+    background-color: #000000;
+    color:white
+}
+
