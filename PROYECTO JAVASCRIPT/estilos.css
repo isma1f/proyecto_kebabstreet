@@ -533,3 +533,323 @@ margin-left: 7%;
   line-height: 1.4;
   color: #ccc; 
 }
+/* 
+/*SOBRE NOSOTROS*/
+
+/*texto fundados en 1979*/
+h2 span{
+    color:#C20101
+}
+
+.fundacion{
+    background-color:#D8D8D8 ;
+    border-style:solid;
+    border-color: #C20101;
+    border-width: 0.3vw;
+    width:90%;
+    margin-left: 5%;
+}
+
+.fundacion p{
+    font-size: 2vw;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Alkatra', cursive;
+    text-align: justify;
+}
+
+/* h2{
+    font-size: 4vw;
+    margin-left: 4.7vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    font-family: 'Jaro', sans-serif;
+} */
+
+/*texto nuestro personal*/
+
+#personalnuestro , #fundados{
+transform: translate(-2.5vw);
+}
+.personal{
+     background-color:#D8D8D8 ;
+    border-style:solid;
+    border-color:#C20101;
+    border-width: 0.3vw;
+    width:90%;
+    margin-left: 5%;
+    
+}
+
+.personal p{
+    font-size: 2vw;
+    margin-bottom: 2.5vw;
+    margin-top: 2.6vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-family: 'Alkatra', cursive;
+    text-align: justify;
+}
+
+
+/*cristiano*/
+
+.cristiano img{
+    width:20vw;
+    margin-left: 4.7vw;
+}
+
+.cristiano h2{
+  transform: translate(-2.5vw);
+}
+
+.cristiano h3{
+    color:#C20101;
+    font-size: 3vw;
+    margin-left: 30vw;
+    transform: translate(0vw,-27vw);
+    
+}
+.cristiano p{
+    background-color:#D8D8D8 ;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.3vw;
+    margin-left: 30%;
+    text-align: justify;
+    width:62vw;
+    height:20vw;
+    transform: translate(0vw,-25vw);
+    padding:2.8vw;
+    line-height: 5vw;
+    
+}
+
+#bandera_portugal{
+    transform: translate(42vw,-25vw)
+
+}
+
+/*antony*/
+
+.antony img{
+    width:20vw;
+    margin-left: 4.7vw;
+    transform:translate(0vw,-10vw)
+}
+
+.antony h2{
+    transform:translate(-2.5vw,-50vw)
+}
+.antony h3{
+    color:#C20101;
+    font-size: 3vw;
+    margin-left: 30vw;
+    transform: translate(0vw,-47vw);
+}
+
+#bandera_turquia{
+   transform:translate(42vw,-38vw) 
+}
+
+.antony p{
+ background-color:#D8D8D8 ;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.3vw;
+    margin-left: 30%;
+    text-align: justify;
+    width:62vw;
+    height:20vw;
+    transform: translate(0vw,-45vw);
+    padding:3vw;
+    line-height: 5vw;
+}
+
+/*alexia*/
+
+.alexia img{
+    width:20vw;
+    margin-left: 4.7vw;
+    transform:translate(0vw,-25vw);
+}
+
+.alexia h2{
+    transform:translate(-2.5vw,-70vw)
+}
+
+.alexia h3{
+    color:#C20101;
+    font-size: 3vw;
+    margin-left: 30vw;
+    transform: translate(0vw,-68vw);
+}
+
+.alexia p{
+    background-color:#D8D8D8 ;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.3vw;
+    margin-left: 30%;
+    text-align: justify;
+    width:62vw;
+    height:20vw;
+    transform: translate(0vw,-65vw);
+    padding:3vw;
+    line-height: 5vw;
+}
+
+#bandera_espana{
+    transform:translate(42vw,-57vw);
+} 
+
+
+/*RESTAURANTES*/
+/*barcelona*/
+#restaurantenuestro{
+transform: translate(-3.5vw,2vw);
+}
+.barcelona{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transform: translate(-1vw,-10vw);
+}
+
+.barcelona h2{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2.8vw;
+    font-family: 'Jaro', sans-serif;
+    transform: translate(45vw,12vw);
+    width:40vw;
+}
+
+.barcelona h2 span{
+    color:#C20101;
+}
+
+
+.barcelona img{
+    width:40vw;
+    grid-row:2;
+    grid-column: 1;
+    transform: translate(4vw,-18vw);
+}
+
+.barcelona p{
+    grid-row:2;
+    grid-column: 2;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    background-color:#D9D9D9;
+    transform: translate(8vw,-21vw);
+    width: 40vw;
+    text-align: justify;
+    padding: 3vw;
+    border-style: solid;
+    border-color: #C20101;
+    line-height:4vw ;
+    border-width: 0.25vw;
+}
+
+/*madrid*/
+
+
+ .Madrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transform: translate(3.5vw,-58vw);
+}
+ 
+
+.Madrid h2{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2.8vw;
+    font-family: 'Jaro', sans-serif;
+    transform: translate(41vw,35vw);
+}
+
+.Madrid h2 span{
+    color:#C20101;
+}
+
+.Madrid img{
+    width:40vw;
+    grid-row:2;
+    grid-column: 1;
+    transform:translate(-0.6vw,3.5vw)
+}
+
+.Madrid p{
+    grid-row:2;
+    grid-column: 2;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    background-color:#D9D9D9;
+    width: 40vw;
+    text-align: justify;
+    padding: 3vw;
+    border-style: solid;
+    border-color: #C20101;
+    line-height:6vw ;
+    border-width: 0.25vw;
+    transform:translate(4vw,-2vw)
+}
+
+/*Malaga*/
+
+ .Malaga{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    transform: translate(3vw,-83vw);
+    margin-bottom: -55%;
+}
+ 
+
+.Malaga h2{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2.8vw;
+    font-family: 'Jaro', sans-serif;
+    transform: translate(41vw,34vw);
+
+}
+
+.Malaga h2 span{
+    color:#C20101;
+}
+
+.Malaga img{
+    width:40vw;
+    grid-row:2;
+    grid-column: 1;
+    transform: translate(-0.3vw,4vw);
+}
+
+.Malaga p{
+    grid-row:2;
+    grid-column: 2;
+    font-family: 'Alkatra', cursive;
+    font-size: 2vw;
+    background-color:#D9D9D9;
+    width: 40vw;
+    text-align: justify;
+    padding: 3vw;
+    border-style: solid;
+    border-color: #C20101;
+    line-height:5.5vw ;
+    border-width: 0.25vw;
+    transform:translate(4vw)
+}
